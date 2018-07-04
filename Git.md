@@ -18,7 +18,7 @@ En primer lugar, para utilizar git debemos ir al terminal. Una vez lo hemos abie
 mkdir nombre_carpeta
 </pre>
 
-Una vez creado el directorio del proyecto, debemos añadirle los ficheros que tendrá. Seguidamente, vamos a **iniciar git** (estando dentro de la carpeta):
+Una vez creado el directorio del proyecto, vamos a **iniciar git** (estando dentro de la carpeta):
 
 <pre>
 git init
@@ -29,6 +29,14 @@ Esto lo que hace es crearle un nuevo subdirectorio llamado .git que tiene todos 
 Por otro lado, al iniciar el git en nuestro directorio, nos aparecerá a la izquierda la rama en la que estamos. Por defecto, la primera es master.
 
 ![Where am I?](C:/Users/Javi/Boostnote/images/command1.png)
+
+Ahora que tenemos iniciado git en nuestro directorio, debemos subirle los ficheros del proyecto. Para ello metemos los ficheros en la carpeta y hacemos lo siguiente:
+
+<pre>
+git add -A ----> añadir todos los ficheros al seguimiento.
+
+git commit -m "descripción de la actualización"
+</pre>
 
 Ahora que ya tenemos iniciado git en el proyecto, vamos a crear una nueva rama para que los cambios no vayan directamente a la master. **La segunda rama siempre la llamaremos developer.** 
 
